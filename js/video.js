@@ -38,7 +38,7 @@ document.querySelector("#skip").addEventListener("click", function() {
 		video.load();
 		video.play();
 	}
-	console.log("Current location: " + video.currentTime);
+	console.log("Video Time is at: " + video.currentTime);
 });
 
 document.querySelector("#mute").addEventListener("click", function() {
